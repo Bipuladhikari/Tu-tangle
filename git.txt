@@ -1,0 +1,33 @@
+----- git commands ----
+for username:
+To see username->
+   git config --global user.name 
+To keep username -> 
+   git config --global user.name 'name'
+Deleting name ->
+   git config --global user.name ''
+
+For email:
+To see ->
+   git config --global user.email
+To keep email -> 
+   git config --global user.email 'email'
+To delete -> 
+   git config --global user.email ''
+
+Initializegit:
+git init
+
+For unstaged to staged
+   git add <file name>
+For adding all-> 
+   git add .
+
+Showing status:
+git status
+
+For staged to commit
+   git commit -m "comment"
+
+For knowing whether committed or not:
+   git log
